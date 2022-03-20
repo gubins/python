@@ -15,8 +15,6 @@ class Persona():
         catsalut=(self.primer[:2]+self.segon[:2]+str(vgen)+self.datan[:2]+self.datan[2:]).upper()
         print(catsalut)
 
-jo=Persona("David","Gubern","Magem","m","03/05/1976")
-
 print(jo.datan)
 
 jo.catsalut()
