@@ -10,7 +10,7 @@ class Persona():
 
     def CIP(self):
         vgen=1        
-        if self.genere.upper()=="M":
+        if self.genere=="M":
             vgen=0
         CIP=(self.primer[:2]+self.segon[:2]+str(vgen)+self.datan[-2:]+self.datan[3:5:1]+self.datan[:2]).upper()
         print(CIP)
